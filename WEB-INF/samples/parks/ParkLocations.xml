@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ParksServiceRowSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns="http://samples/parks/ParksDbProvider/ParksServiceList">
-<ParksServiceRow><ID>1336143856676</ID>
-<PARKNAME>Impossible Sunset Park</PARKNAME>
-<DESCRIPTION>This campus park features basketball and tennis courts, a baseball field and a playground.</DESCRIPTION>
-<RECREATIONFACILITIES>bbq,restrooms,hiking,biking,sailing,playground</RECREATIONFACILITIES>
-<IMGFILENAME>/samples/parks/MB1ImpossibleCompositeSunset.jpg</IMGFILENAME>
-<ADDRESS1>2929 Campus Drive</ADDRESS1>
-<ADDRESS2></ADDRESS2>
-<CITY>San Mateo</CITY>
-<STATE>CA</STATE>
-<POSTALCODE>94403-2534</POSTALCODE>
-<COUNTRY>US</COUNTRY>
-<PHONE>1-650-524-5240</PHONE>
-<LATITUDE>37.534562</LATITUDE>
-<LONGITUDE>-122.326123</LONGITUDE>
-</ParksServiceRow>
 <ParksServiceRow><ID>1336143856677</ID>
 <PARKNAME>Route 128 Might As Well Park</PARKNAME>
 <DESCRIPTION>While on route 128, you might as well park and enjoy the tennis and basketball courts, a baseball diamond, playground and bbq and restroom facilities.</DESCRIPTION>
