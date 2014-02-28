@@ -1,0 +1,29 @@
+<Model id="samples/parks/ParksXmlProvider"><BuilderCallList><BuilderCall id="bc2"><BuilderDefID>com.ibm.samples.builders.XmlFileDataService</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="MakeServicePublic">true</Input>
+<Input name="AddTestingSupport">true</Input>
+<Input name="OperationNameSuffix">Park</Input>
+<Input name="CacheSchema">false</Input>
+<Input name="Name">Parks</Input>
+<Input name="FileName">/WEB-INF/samples/parks/ParkLocations.xml</Input>
+<Input name="KeyField">ID</Input>
+</Inputs>
+</BuilderCall>
+</BuilderCallList>
+<Properties><Contained>false</Contained>
+</Properties>
+<Dependencies><Dependency type="File">/WEB-INF/samples/parks/ParkLocations.xml</Dependency>
+<Dependency type="File">/factory/pages/service_test_index_page.html</Dependency>
+<Dependency type="Model">factory/portletbase/view_and_form_base</Dependency>
+<Dependency type="File">/factory/pages/view_and_form/view.html</Dependency>
+<Dependency type="File">/factory/html_templates/color_themes.html</Dependency>
+<Dependency type="File">/factory/pages/view_and_form/input.html</Dependency>
+<Dependency type="Class">com.bowstreet.builderutilities.NameSequencer</Dependency>
+</Dependencies>
+<ExternalProperties><ExternalProperty id="Service2Enabled">true</ExternalProperty>
+<ExternalProperty id="DojoEnabled">true</ExternalProperty>
+<ExternalProperty id="DojoMinVersion">1.4.3</ExternalProperty>
+<ExternalProperty id="DojoRequires">dijit.layout.ContentPane,wpf.widget.RefreshContainer,dijit.form.TextBox</ExternalProperty>
+</ExternalProperties>
+</Model>

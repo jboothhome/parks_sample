@@ -1,0 +1,692 @@
+<Model id="samples/parks/ParksSample"><BuilderCallList><BuilderCall id="bc2"><BuilderDefID>com.bowstreet.builders.core.Comment</BuilderDefID>
+<Messages />
+<Inputs><Input name="Name">Next Steps</Input>
+<Input name="BuilderCallEnabled">true</Input>
+<Input name="Comment">For further development of this model, you can add and modify any builders to customize the application.   You can also use Design view to work with page elements, for example to move fields around or by using right-click commands.
+
+With that profiling enabled, when you run the model, by default you will see a "desktop" view of the application.
+
+You can view and test both the Desktop, Tablet and Smartphone profiles from Designer.   To do this, open the "Applied Profiles" tab, and select the profile you want to view and click the "Apply" button.   After you have done this, when you run the model you will see the selected profile.    
+
+You can also profile other builder inputs according to device type, and you can apply different profiling for specific device types if you want.   For example, you could have different CSS style sheets applied for different types of smartphones if you want to have a different appearance for each device.</Input>
+<Input name="BuilderCallComment">For further development of this model, you can add and modify any builders to customize the application.   You can also use Design view to work with page elements, for example to move fields around or by using right-click commands.
+
+With that profiling enabled, when you run the model, by default you will see a "desktop" view of the application.
+
+You can view and test both the Desktop, Tablet and Smartphone profiles from Designer.   To do this, open the "Applied Profiles" tab, and select the profile you want to view and click the "Apply" button.   After you have done this, when you run the model you will see the selected profile.    
+
+You can also profile other builder inputs according to device type, and you can apply different profiling for specific device types if you want.   For example, you could have different CSS style sheets applied for different types of smartphones if you want to have a different appearance for each device.</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc4"><BuilderDefID>com.bowstreet.builders.webapp.ImportedModelBuilder</BuilderDefID>
+<Messages />
+<Inputs profiled="true"><Input name="BuilderCallEnabled">true</Input>
+<Input name="UseParentProfile">true</Input>
+<Input name="ImportOnce">true</Input>
+<Input name="ProfileHandling">UseParentProfiling</Input>
+<Input name="Name">Theme</Input>
+<Input name="ModelName">imports/samples/multichanneltheme</Input>
+<Input name="SetProfiledInputValues">false</Input>
+<Input name="_ProfiledInputs"><ProfiledInputs profile_contributor="imports/samples/multichanneltheme"><Input profile="mobile_devicetype_base:DesktopDevice">true</Input>
+<Input profile="mobile_devicetype_base:SmartPhoneDevice">false</Input>
+<Input profile="mobile_devicetype_base:TabletDevice">false</Input>
+</ProfiledInputs>
+</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc5"><BuilderDefID>com.bowstreet.adapters.builders.PortletAdapterBuilder</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="BuilderCallCategory">General</Input>
+<Input name="CustomEditPageType">None</Input>
+<Input name="CustomConfigurePageType">None</Input>
+<Input name="Name">parks</Input>
+<Input name="PortletTitle">WEF Parks Multi-Channel Sample</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc6"><BuilderDefID>com.bowstreet.builders.webapp.ServiceConsumer2Builder</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="BuilderCallCategory">General</Input>
+<Input name="UseAllOperations">true</Input>
+<Input name="OverrideInputs">true</Input>
+<Input name="Name">parks</Input>
+<Input name="ProviderModel">samples/parks/ParksXmlProvider</Input>
+<Input name="OperationInputs"><OverridenInputs><InputsForOperation><Operation>createPark</Operation>
+<Inputs><top><Input><Name>ParksServiceRow</Name>
+</Input>
+<Input><Name>ParksServiceRow.ID</Name>
+</Input>
+<Input><Name>ParksServiceRow.PARKNAME</Name>
+</Input>
+<Input><Name>ParksServiceRow.DESCRIPTION</Name>
+</Input>
+<Input><Name>ParksServiceRow.RECREATIONFACILITIES</Name>
+</Input>
+<Input><Name>ParksServiceRow.IMGFILENAME</Name>
+</Input>
+<Input><Name>ParksServiceRow.ADDRESS1</Name>
+</Input>
+<Input><Name>ParksServiceRow.ADDRESS2</Name>
+</Input>
+<Input><Name>ParksServiceRow.CITY</Name>
+</Input>
+<Input><Name>ParksServiceRow.STATE</Name>
+</Input>
+<Input><Name>ParksServiceRow.POSTALCODE</Name>
+</Input>
+<Input><Name>ParksServiceRow.COUNTRY</Name>
+</Input>
+<Input><Name>ParksServiceRow.PHONE</Name>
+</Input>
+<Input><Name>ParksServiceRow.LATITUDE</Name>
+</Input>
+<Input><Name>ParksServiceRow.LONGITUDE</Name>
+</Input>
+</top>
+</Inputs>
+</InputsForOperation>
+<InputsForOperation><Operation>deletePark</Operation>
+<Inputs><top><Input><Name>Parameters</Name>
+</Input>
+<Input><Name>Parameters.ID</Name>
+</Input>
+</top>
+</Inputs>
+</InputsForOperation>
+<InputsForOperation><Operation>getPark</Operation>
+<Inputs><top><Input><Name>Parameters</Name>
+</Input>
+<Input><Name>Parameters.ID</Name>
+<Value>${Variables/parksView_SelectedRowData/ID}</Value>
+</Input>
+</top>
+</Inputs>
+</InputsForOperation>
+<InputsForOperation><Operation>getParks</Operation>
+<Inputs />
+</InputsForOperation>
+<InputsForOperation><Operation>searchParks</Operation>
+<Inputs><top><Input><Name>Parameters</Name>
+</Input>
+<Input><Name>Parameters.SEARCH_FIELD</Name>
+</Input>
+<Input><Name>Parameters.SEARCH_VALUE</Name>
+</Input>
+</top>
+</Inputs>
+</InputsForOperation>
+<InputsForOperation><Operation>updatePark</Operation>
+<Inputs><top><Input><Name>ParksServiceRow</Name>
+</Input>
+<Input><Name>ParksServiceRow.ID</Name>
+</Input>
+<Input><Name>ParksServiceRow.PARKNAME</Name>
+</Input>
+<Input><Name>ParksServiceRow.DESCRIPTION</Name>
+</Input>
+<Input><Name>ParksServiceRow.RECREATIONFACILITIES</Name>
+</Input>
+<Input><Name>ParksServiceRow.IMGFILENAME</Name>
+</Input>
+<Input><Name>ParksServiceRow.ADDRESS1</Name>
+</Input>
+<Input><Name>ParksServiceRow.ADDRESS2</Name>
+</Input>
+<Input><Name>ParksServiceRow.CITY</Name>
+</Input>
+<Input><Name>ParksServiceRow.STATE</Name>
+</Input>
+<Input><Name>ParksServiceRow.POSTALCODE</Name>
+</Input>
+<Input><Name>ParksServiceRow.COUNTRY</Name>
+</Input>
+<Input><Name>ParksServiceRow.PHONE</Name>
+</Input>
+<Input><Name>ParksServiceRow.LATITUDE</Name>
+</Input>
+<Input><Name>ParksServiceRow.LONGITUDE</Name>
+</Input>
+</top>
+</Inputs>
+</InputsForOperation>
+</OverridenInputs>
+</Input>
+<Input name="OperationName">all</Input>
+<Input name="ContextVariables"><ContextVariables><ValuesForOperation><Operation>byStatus</Operation>
+<Mappings />
+</ValuesForOperation>
+<ValuesForOperation><Operation>byExactStatus</Operation>
+<Mappings />
+</ValuesForOperation>
+<ValuesForOperation><Operation>all</Operation>
+<Mappings />
+</ValuesForOperation>
+<ValuesForOperation><Operation>getOrderDetails</Operation>
+<Mappings />
+</ValuesForOperation>
+</ContextVariables>
+</Input>
+<Input name="OperationDescription">[no description]
+Parameters:
+	Name:			results</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc7"><BuilderDefID>com.bowstreet.builders.webapp.ViewAndFormBuilder</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="BuilderCallCategory">General</Input>
+<Input name="UseTheme">true</Input>
+<Input name="ViewPageURL">${Properties/bowstreet.Theme/ViewAndForm_ViewPageBase}</Input>
+<Input name="EnableDataPaging">true</Input>
+<Input name="CreateInputPage">false</Input>
+<Input name="InputPageURL">${Properties/bowstreet.Theme/ViewAndForm_InputPageBase}</Input>
+<Input name="EnableInputValidation">false</Input>
+<Input name="InputSubmitText">Submit</Input>
+<Input name="ViewPageBackButtonText">Back</Input>
+<Input name="InsertInputPage">false</Input>
+<Input name="CreateColumnLink">true</Input>
+<Input name="LinkActionChoice">dataservice</Input>
+<Input name="DetailPageURL">${Properties/bowstreet.Theme/ViewAndForm_DetailPageBase}</Input>
+<Input name="DetailPageHTMLTemplate">${Properties/bowstreet.Theme/ViewAndForm_DetailPageHTMLTemplate}</Input>
+<Input name="DetailPageBackButtonText">Back</Input>
+<Input name="CreateUpdatePage">true</Input>
+<Input name="UpdateAutoInitializeData">true</Input>
+<Input name="UpdatePageURL">${Properties/bowstreet.Theme/ViewAndForm_UpdatePageBase}</Input>
+<Input name="EnableUpdateValidation">false</Input>
+<Input name="UpdateLinkText">Edit</Input>
+<Input name="UpdateSubmitText">Submit</Input>
+<Input name="UpdateCancelText">Cancel</Input>
+<Input name="CreateMain">true</Input>
+<Input name="ViewPageHTMLTemplate">${Properties/bowstreet.Theme/ViewAndForm_ViewPageHTMLTemplate}</Input>
+<Input name="InputPageHTMLTemplate">${Properties/bowstreet.Theme/ViewAndForm_InputPageHTMLTemplate}</Input>
+<Input name="Name">parksView</Input>
+<Input name="ViewMethod">DataServices/parks/getParks</Input>
+<Input name="RowsPerPage">5</Input>
+<Input name="ModelName">factory/portletbase/view_and_form_base</Input>
+<Input name="SetProfiledInputValues">true</Input>
+<Input name="UniquePattern">xyzzy7</Input>
+<Input name="LinkColumn">PARKNAME</Input>
+<Input name="DetailsMethod">DataServices/parks/getPark</Input>
+<Input name="InputPageStyleSheetOverride">${Properties/bowstreet.Theme/ViewAndForm_InputPageStyleSheetOverrideHTMLTemplate}</Input>
+<Input name="ViewPageStyleSheetOverride">${Properties/bowstreet.Theme/ViewAndForm_ViewPageStyleSheetOverride}</Input>
+<Input name="DetailPageStyleSheetOverride">${Properties/bowstreet.Theme/ViewAndForm_DetailStyleSheetOverride}</Input>
+<Input name="EnablePagingButtons">true</Input>
+<Input name="UpdateMethod">DataServices/parks/updatePark</Input>
+<Input name="UpdateSuccessAction">parksView_ShowResults</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc8"><BuilderDefID>com.bowstreet.builders.webapp.pageautomation.DataFieldSettings</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled" />
+<Input name="AllPages">true</Input>
+<Input name="AllPageRadio">All</Input>
+<Input name="Pages"><data />
+</Input>
+<Input name="DisplayBehavior"><top><DispInfo><Name>ID</Name>
+<Label>[Id]</Label>
+<Hide>HideAlways</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>PARKNAME</Name>
+<Label>[Park Name]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>DESCRIPTION</Name>
+<Label>[Description]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>base_RichText</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>RECREATIONFACILITIES</Name>
+<Label>[Recreationfacilities]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>IMGFILENAME</Name>
+<Label>[Imgfile Name]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>base_Image</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS1</Name>
+<Label>[Address1]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS2</Name>
+<Label>[Address2]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>CITY</Name>
+<Label>[City]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>STATE</Name>
+<Label>[State]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>POSTALCODE</Name>
+<Label>[Postalcode]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>COUNTRY</Name>
+<Label>[Country]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>base_Select</DataType>
+<Sort>[Off]</Sort>
+<LookupTable>countries</LookupTable>
+</DispInfo>
+<DispInfo><Name>PHONE</Name>
+<Label>[Phone]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LATITUDE</Name>
+<Label>[Latitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LONGITUDE</Name>
+<Label>[Longitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+</top>
+</Input>
+<Input name="ValidationBehavior"><top />
+</Input>
+<Input name="DefaultName">All pages</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc9"><BuilderDefID>com.bowstreet.builders.webapp.DataLayoutBuilder</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="MoveLinkToListItem">true</Input>
+<Input name="AddLogging">false</Input>
+<Input name="AutomaticParentSelection">true</Input>
+<Input name="SingleField">[parksView_ViewPage]parksView_ViewPage/ParksServiceRowSet/ParksServiceRowSet</Input>
+<Input name="TemplateFile">/factory/data_layout_templates/ctc_catalog_list.html</Input>
+<Input name="TemplateDescription">This template allows you to generate a list where each list item contains three columns of data across. There is a left column which is generally used for a thumbnail image, a center column with a top, middle, and bottom position and a right middle position. For example this could be used to display an image in the left column followed by a title in the "center_middle", and optionally use the remaining &lt;column&gt;_&lt;row&gt; positions for other related data. You can choose between the alternate list styles of rounded border, or edge-to-edge using the style sheets selection input.</Input>
+<Input name="LayoutFields"><top><FieldMapping><Name>image</Name>
+<Value>IMGFILENAME</Value>
+</FieldMapping>
+<FieldMapping><Name>item_title</Name>
+<Value>PARKNAME</Value>
+</FieldMapping>
+<FieldMapping><Name>item_sub_title</Name>
+<Value>DESCRIPTION</Value>
+</FieldMapping>
+<FieldMapping><Name>item_summary</Name>
+<Value>RECREATIONFACILITIES</Value>
+</FieldMapping>
+<FieldMapping><Name>item_bottom</Name>
+<Value>COUNTRY</Value>
+</FieldMapping>
+</top>
+</Input>
+<Input name="StyleSheetFile">/factory/data_layout_templates/ctc_catalog_list_with_styles.css</Input>
+<Input name="DefaultName">Content Template Catalog Style List</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc10"><BuilderDefID>com.bowstreet.builders.webapp.TextBuilder</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="QuoteText">true</Input>
+<Input name="ReplaceContents">true</Input>
+<Input name="ReplaceTargetElement">false</Input>
+<Input name="Control">page_header_text</Input>
+<Input name="PageLocation"><SimplePageLocation><Page>AllPages</Page>
+<NameSearch>page_header_text</NameSearch>
+</SimplePageLocation>
+</Input>
+<Input name="LookupTable">None</Input>
+<Input name="HTMLAttributes"><HTMLAttributes />
+</Input>
+<Input name="Text">WEF Parks Sample</Input>
+</Inputs>
+</BuilderCall>
+<BuilderCall id="bc11"><BuilderDefID>com.bowstreet.builders.webapp.pageautomation.DataFieldSettings</BuilderDefID>
+<Messages />
+<Inputs><Input name="BuilderCallEnabled">true</Input>
+<Input name="AllPages">false</Input>
+<Input name="AllPageRadio">All</Input>
+<Input name="CurPageDisplayBehavior"><data><DispInfo><Name>ID</Name>
+<Label>[Id]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>PARKNAME</Name>
+<Label>[Park Name]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>DESCRIPTION</Name>
+<Label>[Description]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[Rich Text Editor]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>RECREATIONFACILITIES</Name>
+<Label>[Recreationfacilities]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>IMGFILENAME</Name>
+<Label>[Imgfile Name]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[Image Display]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS1</Name>
+<Label>[Address1]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS2</Name>
+<Label>[Address2]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>CITY</Name>
+<Label>[City]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>STATE</Name>
+<Label>[State]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>POSTALCODE</Name>
+<Label>[Postalcode]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>COUNTRY</Name>
+<Label>[Country]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[Select (drop down)]</DataType>
+<LookupTable>[countries]</LookupTable>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>PHONE</Name>
+<Label>[Phone]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LATITUDE</Name>
+<Label>[Latitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LONGITUDE</Name>
+<Label>[Longitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+</data>
+</Input>
+<Input name="CurValidationBehavior"><data><ValidationInfo><Name>ID</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>PARKNAME</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>DESCRIPTION</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>RECREATIONFACILITIES</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>IMGFILENAME</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>ADDRESS1</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>ADDRESS2</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>CITY</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>STATE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>POSTALCODE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>COUNTRY</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>PHONE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>LATITUDE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>LONGITUDE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+</data>
+</Input>
+<Input name="Pages"><data><parksView_UpdatePage>true</parksView_UpdatePage>
+</data>
+</Input>
+<Input name="DisplayBehavior"><data><DispInfo><Name>ID</Name>
+<Label>[Id]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>PARKNAME</Name>
+<Label>[Park Name]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>DESCRIPTION</Name>
+<Label>[Description]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[Rich Text Editor]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>RECREATIONFACILITIES</Name>
+<Label>[Recreationfacilities]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>IMGFILENAME</Name>
+<Label>[Imgfile Name]</Label>
+<Hide>HideAlways</Hide>
+<DataType>[Image Display]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS1</Name>
+<Label>[Address1]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>ADDRESS2</Name>
+<Label>[Address2]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>CITY</Name>
+<Label>[City]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>STATE</Name>
+<Label>[State]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>POSTALCODE</Name>
+<Label>[Postalcode]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>COUNTRY</Name>
+<Label>[Country]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[Select (drop down)]</DataType>
+<LookupTable>[countries]</LookupTable>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>PHONE</Name>
+<Label>[Phone]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LATITUDE</Name>
+<Label>[Latitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+<DispInfo><Name>LONGITUDE</Name>
+<Label>[Longitude]</Label>
+<Hide>[Do Not Change]</Hide>
+<DataType>[String]</DataType>
+<Sort>[Off]</Sort>
+</DispInfo>
+</data>
+</Input>
+<Input name="ValidationBehavior"><data><ValidationInfo><Name>ID</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>PARKNAME</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>DESCRIPTION</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>RECREATIONFACILITIES</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>IMGFILENAME</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>ADDRESS1</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>ADDRESS2</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>CITY</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>STATE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>POSTALCODE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>COUNTRY</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>PHONE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>LATITUDE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+<ValidationInfo><Name>LONGITUDE</Name>
+<ValidationOp>[Do Not Change]</ValidationOp>
+<Required>[NotRequired]</Required>
+</ValidationInfo>
+</data>
+</Input>
+<Input name="Name">parksView_UpdatePagemenu</Input>
+<Input name="DefaultName">parksView_UpdatePage </Input>
+</Inputs>
+</BuilderCall>
+</BuilderCallList>
+<Properties><Contained>false</Contained>
+</Properties>
+<Dependencies><Dependency type="Model">imports/samples/multichanneltheme</Dependency>
+<Dependency type="Model">samples/parks/ParksXmlProvider</Dependency>
+<Dependency type="Model">factory/portletbase/view_and_form_base</Dependency>
+<Dependency type="File">/factory/pages/multichannel/desktop/view_and_form/view.html</Dependency>
+<Dependency type="File">/factory/pages/paging/data_paging_links.html</Dependency>
+<Dependency type="File">/factory/html_templates/clean_themes.html</Dependency>
+<Dependency type="File">/factory/pages/multichannel/desktop/view_and_form/details.html</Dependency>
+<Dependency type="File">/factory/pages/multichannel/desktop/view_and_form/input.html</Dependency>
+<Dependency type="File">/factory/data_layout_templates/ctc_catalog_list.html</Dependency>
+<Dependency type="File">/factory/data_layout_templates/ctc_catalog_list_with_styles.css</Dependency>
+<Dependency type="File">/factory/pages/paging/data_paging_links_blue.css</Dependency>
+</Dependencies>
+<ExternalProperties><ExternalProperty id="PortletModel">true</ExternalProperty>
+<ExternalProperty id="PortletName">parks</ExternalProperty>
+<ExternalProperty id="PortletTitle">WEF Parks Multi-Channel Sample</ExternalProperty>
+<ExternalProperty id="PortletDefaultLocale">en</ExternalProperty>
+<ExternalProperty id="TestPortalPage"></ExternalProperty>
+<ExternalProperty id="PortletModeEdit">false</ExternalProperty>
+<ExternalProperty id="PortletModeEditDefaults">false</ExternalProperty>
+<ExternalProperty id="PortletModeConfig">false</ExternalProperty>
+<ExternalProperty id="PortletModeHelp">false</ExternalProperty>
+</ExternalProperties>
+</Model>

@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParksServiceRowSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://samples/parks/ParksDbProvider/ParksServiceList">
+<ParksServiceRow><ID>1336143856675</ID>
+<PARKNAME>San Jose Park</PARKNAME>
+<DESCRIPTION>Down by the bay you will find plenty to do at the Bayside Park, featuring multiple sports related fields, sailing and fishing, along with barbeque and restroom facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,hiking,biking,running</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BeachMarshHiking.jpg</IMGFILENAME>
+<ADDRESS1>650 Harry Road</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>San Jose</CITY>
+<STATE>CA</STATE>
+<POSTALCODE>95120-6099</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>408-927-1080</PHONE>
+<LATITUDE>37.212379</LATITUDE>
+<LONGITUDE>-121.805421</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856676</ID>
+<PARKNAME>Impossible Sunset Park</PARKNAME>
+<DESCRIPTION>This campus park features basketball and tennis courts, a baseball field and a playground.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,hiking,biking,sailing,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1ImpossibleCompositeSunset.jpg</IMGFILENAME>
+<ADDRESS1>2929 Campus Drive</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>San Mateo</CITY>
+<STATE>CA</STATE>
+<POSTALCODE>94403-2534</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>1-650-524-5240</PHONE>
+<LATITUDE>37.534562</LATITUDE>
+<LONGITUDE>-122.326123</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856677</ID>
+<PARKNAME>Route 128 Might As Well Park</PARKNAME>
+<DESCRIPTION>While on route 128, you might as well park and enjoy the tennis and basketball courts, a baseball diamond, playground and bbq and restroom facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>restrooms,baseball,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BaseballBatGlove.jpg</IMGFILENAME>
+<ADDRESS1>404 Wyman Street</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Waltham</CITY>
+<STATE>MA</STATE>
+<POSTALCODE>02454-1280</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>781-895-123</PHONE>
+<LATITUDE>42.409788</LATITUDE>
+<LONGITUDE>-71.255247</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856678</ID>
+<PARKNAME>Windy City Park</PARKNAME>
+<DESCRIPTION>Come on down and enjoy our tennis and basketball courts, catch a rugby game and let the children play on the playground while you barbecue.</DESCRIPTION>
+<RECREATIONFACILITIES>restrooms,rugby,sailing,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1OceanClouds.jpg</IMGFILENAME>
+<ADDRESS1>71 South Wacker Drive</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Chicago</CITY>
+<STATE>IL</STATE>
+<POSTALCODE>60606</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>312-529-9400</PHONE>
+<LATITUDE>41.880897</LATITUDE>
+<LONGITUDE>-87.636852</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856680</ID>
+<PARKNAME>Great Lake North Park</PARKNAME>
+<DESCRIPTION>Enjoy year round facilities including baseketball and tennis courts, seasonal skating and a playground.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,fishing</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1FishingHoleSunset.jpg</IMGFILENAME>
+<ADDRESS1>3600 Steeles Ave. East Markham</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Ontario</CITY>
+<STATE></STATE>
+<POSTALCODE>L3R 9Z7</POSTALCODE>
+<COUNTRY>CA</COUNTRY>
+<PHONE>905-316-5534</PHONE>
+<LATITUDE>45.399</LATITUDE>
+<LONGITUDE>-75.73</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856681</ID>
+<PARKNAME>Dallas Park</PARKNAME>
+<DESCRIPTION>Get out and exercise on our multiple sports courts and fields, while the children burn off some steam at the playground.  Stay for dinner with our new barbecue and restroom facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,baseball,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BaseballBatGlove.jpg</IMGFILENAME>
+<ADDRESS1>13800 Diplomat Drive</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Dallas</CITY>
+<STATE>TX</STATE>
+<POSTALCODE>75234</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>972-246-3317</PHONE>
+<LATITUDE>32.79</LATITUDE>
+<LONGITUDE>-96.804</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856685</ID>
+<PARKNAME>Fashion Park</PARKNAME>
+<DESCRIPTION>Unwind after a long day on the fashion scena with some seasonal sports followed by a stroll through the park with some gelato grande.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,skiing,skating,tennis</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SkiChairlift.jpg</IMGFILENAME>
+<ADDRESS1>Circonvallazione Idroscalo</ADDRESS1>
+<ADDRESS2>Segrate</ADDRESS2>
+<CITY>Milano</CITY>
+<STATE></STATE>
+<POSTALCODE></POSTALCODE>
+<COUNTRY>IT</COUNTRY>
+<PHONE>+39 02 596 26227</PHONE>
+<LATITUDE>45.465289</LATITUDE>
+<LONGITUDE>9.280593</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856687</ID>
+<PARKNAME>Istanbul Waterfront Park</PARKNAME>
+<DESCRIPTION>Shoot some hoops, volley some serves, hit a few homers and then unwind on the playground after a picnic barbecue.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,swimming,sailing,hiking,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1ImpossibleCompositeSunset.jpg</IMGFILENAME>
+<ADDRESS1>Yapi Kredi Plaza B Blok</ADDRESS1>
+<ADDRESS2>Levent 34330</ADDRESS2>
+<CITY>Istanbul</CITY>
+<STATE></STATE>
+<POSTALCODE></POSTALCODE>
+<COUNTRY>TR</COUNTRY>
+<PHONE>+90 (0) 212 317 10 00</PHONE>
+<LATITUDE>41.089011</LATITUDE>
+<LONGITUDE>29.006283</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856688</ID>
+<PARKNAME>Hursley Park</PARKNAME>
+<DESCRIPTION>Come on down and enjoy a cricket match and a rugby game, while working on your tennis volley.  Bring the children for an evening picnic and fun on the playground.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,soccer,rugby,cricket,tennis,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SoccerBallGoal.jpg</IMGFILENAME>
+<ADDRESS1>Galileo Centre</ADDRESS1>
+<ADDRESS2>Hursley Park</ADDRESS2>
+<CITY>Hursley</CITY>
+<STATE>Hampshire</STATE>
+<POSTALCODE>S021 2JN</POSTALCODE>
+<COUNTRY>GB</COUNTRY>
+<PHONE>+44 1962-818272</PHONE>
+<LATITUDE>51.026597</LATITUDE>
+<LONGITUDE>-1.39784</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856690</ID>
+<PARKNAME>Johannesburg Park</PARKNAME>
+<DESCRIPTION>Enjoy a nice evening swim after an intense tennis match, while the family relaxes on the picnic stands and the playground.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,soccer,tennis,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SoccerBallGoal.jpg</IMGFILENAME>
+<ADDRESS1>70 Rivonia Road</ADDRESS1>
+<ADDRESS2>Sandhurst 2196</ADDRESS2>
+<CITY>Johannesburg</CITY>
+<STATE></STATE>
+<POSTALCODE></POSTALCODE>
+<COUNTRY>ZA</COUNTRY>
+<PHONE>+27 11 302 9111</PHONE>
+<LATITUDE>-26.114083</LATITUDE>
+<LONGITUDE>28.052033</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856692</ID>
+<PARKNAME>Warsaw Park</PARKNAME>
+<DESCRIPTION>Shoot some hoops, volley some serves, hit a few homers and then unwind on the playground after a picnic barbecue.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,basketball,skiing,xcskiing,tennis,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/JBMountainScene.jpg</IMGFILENAME>
+<ADDRESS1>Polska Sp. z o.o.</ADDRESS1>
+<ADDRESS2>ul. 1 Sierpnia 8</ADDRESS2>
+<CITY>Warszawa</CITY>
+<STATE></STATE>
+<POSTALCODE></POSTALCODE>
+<COUNTRY>PL</COUNTRY>
+<PHONE>+48 22-8786888</PHONE>
+<LATITUDE>52.191496</LATITUDE>
+<LONGITUDE>20.98276</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856693</ID>
+<PARKNAME>Yorktown Park</PARKNAME>
+<DESCRIPTION>Seasonal sporting facilities including 3 season tennis and basketball, some winter skating, along with year round barbecue and restroom facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,skating,xcskiing,baseball,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/JBHikingScene.jpg</IMGFILENAME>
+<ADDRESS1>1101 Kitchawan Road</ADDRESS1>
+<ADDRESS2>Route 134</ADDRESS2>
+<CITY>Yorktown Heights</CITY>
+<STATE>NY</STATE>
+<POSTALCODE>10598</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>914-945-1614</PHONE>
+<LATITUDE>41.216056</LATITUDE>
+<LONGITUDE>-73.806002</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856695</ID>
+<PARKNAME>Charles River Park</PARKNAME>
+<DESCRIPTION>Enjoy sailing on the Charles, newly renovated basketball and tennis courts, and a playground and picnic area for the family.</DESCRIPTION>
+<RECREATIONFACILITIES>restrooms,basketball,tennis,sailing,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BasketballHoop.jpg</IMGFILENAME>
+<ADDRESS1>1 rogers street</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Cambridge</CITY>
+<STATE>MA</STATE>
+<POSTALCODE>02142</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>617-577-8500</PHONE>
+<LATITUDE>42.365797</LATITUDE>
+<LONGITUDE>-71.076795</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856697</ID>
+<PARKNAME>Boca Raton Beach Park</PARKNAME>
+<DESCRIPTION>The whole family will enjoy water and courtside sports, along with the fabulous playground and picnic facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,swimming,sailing,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BeachWave.jpg</IMGFILENAME>
+<ADDRESS1>8051 Congress Avenue</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Boca Raton</CITY>
+<STATE>FL</STATE>
+<POSTALCODE>33487</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>1-561-241-1997</PHONE>
+<LATITUDE>26.421943</LATITUDE>
+<LONGITUDE>-80.092513</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856698</ID>
+<PARKNAME>Charlotte Park</PARKNAME>
+<DESCRIPTION>Shoot some hoops, volley some serves, hit a few homers and then unwind on the playground after a picnic barbecue.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,hiking</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SmallsFallsME.jpg</IMGFILENAME>
+<ADDRESS1>10330 David Taylor Dr</ADDRESS1>
+<ADDRESS2></ADDRESS2>
+<CITY>Charlotte</CITY>
+<STATE>NC</STATE>
+<POSTALCODE>28262</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>1-800-555-7080</PHONE>
+<LATITUDE>35.330913</LATITUDE>
+<LONGITUDE>-80.763025</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856699</ID>
+<PARKNAME>Central Park</PARKNAME>
+<DESCRIPTION>Forget you are in the city with some evening hoops, a tennis match and a spin around our newly renovated playground.'</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,basketball,baseball,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BasketballHoop.jpg</IMGFILENAME>
+<ADDRESS1>590 Madison Avenue</ADDRESS1>
+<ADDRESS2>12th floor</ADDRESS2>
+<CITY>New York</CITY>
+<STATE>NY</STATE>
+<POSTALCODE>10022</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>212-745-2101</PHONE>
+<LATITUDE>40.762408</LATITUDE>
+<LONGITUDE>-73.972636</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856701</ID>
+<PARKNAME>Tucson Park</PARKNAME>
+<DESCRIPTION>Shoot some hoops, volley some serves, hit a few homers and then unwind on the playground after a picnic barbecue.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,baseball,playground</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1BaseballBatGlove.jpg</IMGFILENAME>
+<ADDRESS1>9000 South Rita Road</ADDRESS1>
+<ADDRESS2> 9070 Bldg, 3rd Floor</ADDRESS2>
+<CITY>Tucson</CITY>
+<STATE>AZ</STATE>
+<POSTALCODE>85744</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>520-799-5460</PHONE>
+<LATITUDE>32.090686</LATITUDE>
+<LONGITUDE>-110.804921</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856702</ID>
+<PARKNAME>Rochester Park</PARKNAME>
+<DESCRIPTION>Seasonal facilities include basketball and tennis courts, winter cross country skiing and a playground with picnic facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,xcskiing,skiing</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SkiTrailGlades.jpg</IMGFILENAME>
+<ADDRESS1>3605 Highway 52</ADDRESS1>
+<ADDRESS2>North Building 025-2</ADDRESS2>
+<CITY>Rochester</CITY>
+<STATE>MN</STATE>
+<POSTALCODE>55901</POSTALCODE>
+<COUNTRY>US</COUNTRY>
+<PHONE>507-253-1119</PHONE>
+<LATITUDE>44.060013</LATITUDE>
+<LONGITUDE>-92.497658</LONGITUDE>
+</ParksServiceRow>
+<ParksServiceRow><ID>1336143856674</ID>
+<PARKNAME>Prague Park</PARKNAME>
+<DESCRIPTION>Our city has reciprocal privileges with Prague's city park, which features basketball courts, tennis, skating, a playground and barbeque and restroom facilities.</DESCRIPTION>
+<RECREATIONFACILITIES>bbq,restrooms,basketball,xcskiing,skiing,skating</RECREATIONFACILITIES>
+<IMGFILENAME>/samples/parks/MB1SkiChairlift.jpg</IMGFILENAME>
+<ADDRESS1>V Parku 2294/4</ADDRESS1>
+<ADDRESS2>148 00 Praha 4</ADDRESS2>
+<CITY>Prague</CITY>
+<STATE></STATE>
+<POSTALCODE></POSTALCODE>
+<COUNTRY>CZ</COUNTRY>
+<PHONE>+420 2 72131111</PHONE>
+<LATITUDE>50.028748</LATITUDE>
+<LONGITUDE>14.493542</LONGITUDE>
+</ParksServiceRow>
+</ParksServiceRowSet>
