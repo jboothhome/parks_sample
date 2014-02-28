@@ -1,21 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ParksServiceRowSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns="http://samples/parks/ParksDbProvider/ParksServiceList">
-<ParksServiceRow><ID>1336143856675</ID>
-<PARKNAME>San Jose Park</PARKNAME>
-<DESCRIPTION>Down by the bay you will find plenty to do at the Bayside Park, featuring multiple sports related fields, sailing and fishing, along with barbeque and restroom facilities.</DESCRIPTION>
-<RECREATIONFACILITIES>bbq,restrooms,hiking,biking,running</RECREATIONFACILITIES>
-<IMGFILENAME>/samples/parks/MB1BeachMarshHiking.jpg</IMGFILENAME>
-<ADDRESS1>650 Harry Road</ADDRESS1>
-<ADDRESS2></ADDRESS2>
-<CITY>San Jose</CITY>
-<STATE>CA</STATE>
-<POSTALCODE>95120-6099</POSTALCODE>
-<COUNTRY>US</COUNTRY>
-<PHONE>408-927-1080</PHONE>
-<LATITUDE>37.212379</LATITUDE>
-<LONGITUDE>-121.805421</LONGITUDE>
-</ParksServiceRow>
 <ParksServiceRow><ID>1336143856676</ID>
 <PARKNAME>Impossible Sunset Park</PARKNAME>
 <DESCRIPTION>This campus park features basketball and tennis courts, a baseball field and a playground.</DESCRIPTION>
